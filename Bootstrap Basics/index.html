@@ -11,18 +11,38 @@
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>Bootstrap Basics</h1>
-    </div>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+        <a class="navbar-brand" href="#">
+            <img src="https://s15.postimg.cc/mv4hhbdzf/browser-512.png" width="30" height="30" class="d-inline-block align-top" alt=""> Bootstrap
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="jumbotron container">
         <h1>This is Jumbotron</h1>
-        <p>Bacon ipsum dolor amet kielbasa meatball spare ribs bresaola, leberkas pig shankle cupim. Venison sirloin corned
+        <hr>
+        <p class="text-justify font-weight-normal">Bacon ipsum dolor amet kielbasa meatball spare ribs bresaola, leberkas pig shankle cupim. Venison sirloin corned
             beef, pancetta fatback tongue pork chop spare ribs burgdoggen ribeye pork belly meatloaf. Hamburger venison spare
             ribs, chicken ribeye drumstick pork beef ribs short ribs ham turducken boudin leberkas prosciutto. Boudin short
             loin jowl, andouille biltong meatloaf frankfurter. Tail strip steak kevin t-bone, prosciutto boudin capicola
@@ -53,13 +73,14 @@
                 <input type="checkbox" class="form-check-input" id="checkBox">
                 <label for="checkBox" class="form-check-label">I am agree with conditions</label>
             </div>
+            <hr>
             <button class="btn btn-outline-success">Sign up!</button>
         </form>
     </div>
 
     <div class="jumbotron container">
 
-        <form>
+        <form class="form">
             <div class="row">
                 <div class="col">
                     <input type="email" class="form-control is-valid" id="exampleInputEmail" placeholder="Enter your email" aria-describedby="emailHelp">
@@ -69,9 +90,7 @@
                     <input type="password" class="form-control is-valid" id="exampleInputPassword" placeholder="Enter your password" aria-describedby="password">
                 </div>
             </div>
-
             <button class="btn btn-block btn-outline-primary form-control sign-up-btn">It's free, Sign up today!</button>
-
         </form>
 
     </div>
