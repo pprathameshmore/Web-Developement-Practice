@@ -1,0 +1,29 @@
+body {
+    background: url(https://s33.postimg.cc/7hsc9rwz3/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Lato;
+}
+
+
+hr {
+    color: white;
+    width: 400px;
+}
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+    text-shadow: 1px 1px 2px gray;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+    
+}
+html {
+    height: 100%;
+}
